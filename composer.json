@@ -1,0 +1,24 @@
+{
+  "name": "rc/php-skeleton",
+  "description": "",
+  "keywords": [],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "authors": [
+    {
+      "name": "Ricardo Cimma",
+      "email": "rcimma04@gmail.com"
+    }
+  ],
+  "require": {
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Skeleton\\": "src/",
+      "SkeletonTest\\": "tests/"
+    }
+  }
+}

@@ -1,4 +1,4 @@
-FROM php:8.1-apache AS base
+FROM php:7.4-apache AS base
 LABEL maintainer="rcimma04@gmail.com"
 
 RUN php -m
